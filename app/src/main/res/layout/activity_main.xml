@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:ignore="ExtraText">
+
+    // Assuming your icon file is named "menu_icon.png" or "menu_icon.xml"
+
+
+    <ImageButton
+        android:id="@+id/sos_button"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sos_button_background"
+        android:padding="16dp" />
+
+
+    <ImageButton
+        android:id="@+id/second_button"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_below="@id/sos_button"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/sos_button_background2"
+        android:padding="16dp" />
+
+</RelativeLayout>
